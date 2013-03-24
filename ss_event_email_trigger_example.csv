@@ -1,0 +1,11 @@
+### Replace all of the key and other values with your own, of course.
+### If you edit your CSVs in Excel, it will do bad things including adding an extra blank line to the end, changing the format of your date to a format Salsa doesn't like (the format is very picky! (yyyy-mm-dd hh:mm) - nothing else will work!, and putting double quotes around your javascript.
+### Be sure to remove those in TextPad before you feed this to the SalsaShark.
+
+### When using with multiple tables, make sure you're uploading the same number of child objects as parent objects.
+
+### Feed this spreadsheet as the child table and ss_event_example.csv as the parent table to SalsaShark using SalsaImportMultiTables()
+
+object,2-SVT-key,3-SVT-chapter_KEY,3-SVT-event_KEY,3-SVT-email_trigger_KEY,3-SVT-type,4-SVT-object,5-SVT-key,6-SVT-chapter_KEY,6-SVT-event_KEY,6-SVT-email_trigger_KEY,6-SVT-type
+event_email_trigger,0,123,SVT-OBJECT-KEY,1007,event,event_email_trigger,0,chapter_key,SVT-OBJECT-KEY,1234,reminder
+event_email_trigger,0,123,SVT-OBJECT-KEY,1007,event,event_email_trigger,0,chapter_key,SVT-OBJECT-KEY,1234,reminder
