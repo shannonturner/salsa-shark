@@ -44,7 +44,7 @@ uploaded_objects_file = "log.txt"
 object_type = "event"
 child_object_type = "event_email_trigger"
 
-## Use only one of the following functions at a time depending on which one you need: 
+### Use only one of the following functions at a time depending on which one you need: 
 
 ### Use this for when you just need to add/make changes to just one Salsa table.
 SalsaImportSingleTable(objects_from_csv, uploaded_objects_file, object_type, baseurl)
