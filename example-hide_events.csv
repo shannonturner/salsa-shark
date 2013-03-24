@@ -1,0 +1,13 @@
+### Example: Hiding events 
+### Feeding this CSV to SalsaShark, I can hide the following event keys from being visible on the distributed_event search pages.
+object,key,Status
+event,132063,Not Searchable
+event,71033,Not Searchable
+event,59264,Not Searchable
+event,59180,Not Searchable
+event,59263,Not Searchable
+event,70958,Not Searchable
+event,59225,Not Searchable
+event,59253,Not Searchable
+event,146637,Not Searchable
+event,112909,Not Searchable
